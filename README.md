@@ -1,7 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Local Shop – Fresh Finds, Best Prices</title>
@@ -208,12 +207,12 @@ const CONFIG = {
   OWNER_EMAIL: "janardhanpatil821@gmail.com",   // or "thelocalshop@gmail.com"
 
   // EmailJS credentials (free account at https://www.emailjs.com)
-  EMAILJS_PUBLIC_KEY: "YOUR_PUBLIC_KEY",
-  EMAILJS_SERVICE_ID: "YOUR_SERVICE_ID",
-  EMAILJS_TEMPLATE_ID: "YOUR_TEMPLATE_ID",
+  EMAILJS_PUBLIC_KEY: "veRbMBQ0QHI5iGiKG",
+  EMAILJS_SERVICE_ID: "service_e3ckogg",
+  EMAILJS_TEMPLATE_ID: "template_hcfzvu5",
 
   // WhatsApp number: country code + number, digits only (e.g. India: 919876543210)
-  WHATSAPP_NUMBER: "91XXXXXXXXXX",
+  WHATSAPP_NUMBER: "918277116752",
 
   CURRENCY: "₹"
 };
@@ -401,7 +400,7 @@ $("orderForm").addEventListener("submit", async e => {
     setStatus("err", "Could not send the order. Check your internet and try again, or message us on WhatsApp.");
   } finally {
     btn.disabled = false; btn.textContent = "Send Order";
-  } 
+  }
 });
 
 /* =====================================================================
