@@ -401,7 +401,7 @@ $("orderForm").addEventListener("submit", async e => {
     setStatus("err", "Could not send the order. Check your internet and try again, or message us on WhatsApp.");
   } finally {
     btn.disabled = false; btn.textContent = "Send Order";
-  }
+  } 
 });
 
 /* =====================================================================
